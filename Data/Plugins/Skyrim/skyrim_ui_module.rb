@@ -1001,10 +1001,4 @@ Dax.register(:skyrim_ui, "dax", 3.0) {
     		draw_face(actor.face_name, actor.face_index, x, y, enabled)
   		end
 	end
-	#==========================================================================
-	# • Carregar os arquivos.
-	#==========================================================================
-
-	# Carregar a tela de título.
-	load_script($ROOT_PATH["skyrim_ui_.rb", "Skyrim/"])
 }
